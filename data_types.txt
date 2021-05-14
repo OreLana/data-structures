@@ -1,0 +1,67 @@
+// PYTHON DATA TYPES
+- Data types are a classification of data items, it helps inform us of the kind of 
+operations that can be performed on a particular data
+
+common data types in python include:
+    - Numeric (Integers, Floats)
+    - Sequence (string, lists, tuples)
+    - Boolean (True, False)
+    - Sets
+    - Dictionary
+
+Numeric Data types:
+This refers to data types that have a numeric value and could be any of the following:
+    - integers: value respresented by the int class, could be positive or negative whole numbers
+        usually without a fraction or a decimal 6, 23, -2
+
+    - floats: value represented by float class, could also be positive or negative,
+        it is specified by a decimal point e.g. 5.34, 10.21
+
+    - complex numbers: Complex number is represented by complex class.
+     It is specified as (real part) + (imaginary part)j. For example – 2+3j
+
+You can carry out operations such as addition, subtraction, multiplication and division on them 
+ 
+
+Sequence 
+This refers to a collection of similar data types, sequences allow to store multiple values in an organized and efficient fashion
+and includes the following:
+    - strings: a sequence unicode characters,'', "", """"""
+        -string indexing and string slicing, strings are immutable
+    - lists: An ordered sequence of items, usually enclosed within []. They are mutable
+    - tuples: Tuple is an ordered sequence of items same as a list. The only difference is that tuples are immutable. 
+
+
+Boolean
+Data type with one of the two built-in values, True or False.
+Boolean objects that are equal to True are truthy (true), and those equal to False are falsy (false). 
+
+Set
+In Python, Set is an unordered collection of data type that is iterable, mutable and has no duplicate elements. 
+The order of elements in a set is undefined though it may consist of various elements.
+
+
+Dictionary
+A dictionary is an unordered collection of data values, used to store data values like a map, which unlike other Data Types hold any 
+single value as an element.
+
+
+
+Python keywords to note when dealing with data types:
+- int, float, set, string, tuple, list, complex, dict, bool
+- type()
+- dir()
+
+
+// Python naming conventions
+- Modules should have short, all-lowercase names. Underscores can be used in the module name if it improves readability.
+- Class names should normally use the CapWords convention.
+- Function names should be lowercase, with words separated by underscores as necessary to improve readability.
+- Variable names follow the same convention as function names.
+
+
+// How to debug in python
+1. Read traceback bottom up
+2. Check for the kind of error your code is throwing e.g. syntax errors, end of line
+3. Check for the line the error is on
+4. Fix it
